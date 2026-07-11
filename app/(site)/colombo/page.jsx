@@ -24,7 +24,7 @@ export default function Colombo() {
           <p>
             Sri Lankan rice &amp; curry, hoppers, kottu, fresh seafood, and
             great rooftop bars. Our favorites are <strong>Paradise Road The Gallery Café</strong>, 
-            the <strong>Ministry of Crab</strong>, and <strong>Sugar Bistro</strong>.
+            the <strong>Ministry of Crab</strong>, and <strong>Sugar Bistro</strong>. We also love Barefoot, which is a lovely shop, art gallery, bookshop and courtyard cafe.
           </p>
         </div>
         <div className="card">

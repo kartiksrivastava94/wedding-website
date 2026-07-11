@@ -9,7 +9,7 @@ export default async function Travel() {
     <Content>
       <h1>Getting to Colombo</h1>
       <p className="lead">
-        December is peak season in Sri Lanka. Please sort out flights and your
+        December is a busy season in Sri Lanka. Please sort out flights and your
         ETA visa early.
       </p>
 
@@ -23,7 +23,7 @@ export default async function Travel() {
           <h3>When to arrive</h3>
           {cocktail ? (
             <p>
-              Plan to land by <strong>Dec 1</strong> for the cocktail party (or
+              Plan to land by afternoon of <strong>Dec 1</strong> for the cocktail party (or
               the morning of Dec 2 at the latest). Depart <strong>Dec 4</strong>{" "}
               or later.
             </p>
@@ -45,7 +45,7 @@ export default async function Travel() {
         <div className="card">
           <h3>Book early</h3>
           <p>
-            December is the busy season -- book your flights quickly! 
+            December is a busy season -- book your flights quickly! 
           </p>
         </div>
       </div>
@@ -87,8 +87,8 @@ export default async function Travel() {
         <div className="card">
           <h3>Ride-hailing</h3>
           <p>
-            <strong>PickMe</strong> (local) and <strong>Uber</strong> both
-            operate in Colombo and are the easiest way to get around.
+            <strong>Uber</strong> 
+            operates in Colombo and is the easiest way to get around.
           </p>
         </div>
         <div className="card">
