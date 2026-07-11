@@ -29,8 +29,8 @@ export default async function Schedule() {
           <h3>Your home base — The Oyster Bar</h3>
           <p>
             Throughout the celebrations, The Oyster Bar at ITC Ratnadipa is our
-            home base. Drop by any time for tea, coffee, and snack. It&rsquo;s
-            a relaxed spot to catch up with friends and family between events.
+            home base. Drop by any time for tea, coffee, and a snack. It&rsquo;s
+            a relaxed spot to catch up with friends and family between events or to wait while the hotel staff checks you in.
           </p>
         </div>
         <img src="/images/oyster-bar.png" alt="The Oyster Bar, ITC Ratnadipa" />
