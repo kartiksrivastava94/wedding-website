@@ -42,7 +42,7 @@ export default function HeroCarousel() {
   function onDragEnd() {
     if (!dragging.current) return;
     dragging.current = false;
-    if (Math.abs(dragOffset) > 40) {
+    if (Math.abs(dragOffset) > 20) {
       goTo(index + (dragOffset < 0 ? 1 : -1));
     }
     setDragOffset(0);
@@ -62,7 +62,7 @@ export default function HeroCarousel() {
         className="hero-carousel-track"
         style={{
           transform: `translateX(${-baseOffset + dragOffset}px)`,
-          transition: dragging.current ? "none" : "transform 0.3s ease",
+          transition: dragging.current ? "none" : "transform 0.18s ease-out",
         }}
         onTouchStart={(e) => onDragStart(e.touches[0].clientX)}
         onTouchMove={(e) => onDragMove(e.touches[0].clientX)}
