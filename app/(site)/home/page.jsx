@@ -2,14 +2,18 @@ import Link from "next/link";
 import { getTrackInfo } from "@/lib/auth";
 import { site } from "@/lib/site";
 import Content from "../_components/Content";
+import HeroCarousel from "../_components/HeroCarousel";
 
 export default async function Home() {
   const { cocktail, dec1Stay } = await getTrackInfo();
 
   return (
-    <div className="page-with-side-photos">
+    <div className="page-with-side-photos home">
       <div className="page-main">
         <section className="hero-pill-section">
+          <div className="hero-carousel-mobile">
+            <HeroCarousel />
+          </div>
           <div className="container">
             <div className="hero-pill-text">
               <p className="subtitle">

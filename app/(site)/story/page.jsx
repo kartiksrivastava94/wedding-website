@@ -1,16 +1,20 @@
 import Content from "../_components/Content";
+import HeroCarousel from "../_components/HeroCarousel";
 
 export default function Story() {
   return (
-    <div className="page-with-side-photos">
+    <div className="page-with-side-photos story">
       <div className="page-main">
+        <div className="hero-carousel-mobile">
+          <HeroCarousel />
+        </div>
         <Content>
           <h1>Our Story</h1>
 
           <p>
-            We met during our first year at Yale. There aren&rsquo;t many
+            We met during our first year as undergrads at Yale. There aren&rsquo;t many
             international students there, so we found each other almost
-            immediately &mdash; through shared friends, music, and economics
+            immediately through shared friends, music, and economics
             classes. Before long, we were close friends.
           </p>
 
@@ -20,18 +24,18 @@ export default function Story() {
             obvious that doing anything about it made very little sense.
             Kartik is from an Indian Hindu family, Amen from a Pakistani
             Muslim one. After graduation, he&rsquo;d be returning to India
-            while she was due to stay in the US. The practical thing was to
+            while she was due to stay in the US. The practical thing to do was to
             ignore our feelings. 
           </p>
 
           <p>
-            As you may have gathered, we are not very
-            practical. So we didn&rsquo;t say it out loud. We just spent nearly all our
+            As you may have gathered over the years, we are not very
+            practical. So while we didn&rsquo;t say anything out loud, we spent nearly all our
             time together &mdash; studying in libraries, working through
-            problem sets, and inventing increasingly flimsy excuses to see
-            each other. Our friends did not buy the &ldquo;just
+            problem sets, and inventing increasingly contrived excuses to see
+            each other. Our friends were wiser than us. They did not buy the &ldquo;just
             friends&rdquo; story for a minute, and took to texting one
-            another photos whenever they spotted us together.
+            another photos of us whenever they spotted us together.
           </p>
 
           <p>
@@ -44,34 +48,34 @@ export default function Story() {
 
           <p>
             What followed was an idyllic summer in New Haven, soaking up our
-            last weeks in the place that had become home. Then, as planned,
+            last few weeks in the place that had become home to us. Then, as planned,
             we said goodbye &mdash; but immediately realized we weren&rsquo;t
             ready to let go. So began an even more impractical
             US&ndash;India long-distance relationship.
           </p>
 
           <p>
-            A year later, we somehow engineered a way for Kartik to move to
-            Washington, DC, where Amen lived and worked. We spent two
+            A year later, we somehow engineered a way for Kartik to move from Delhi to
+            Washington DC, where Amen lived and worked. We spent two
             wonderful years in a city that we grew to love &mdash; and then,
             just to ruin it all, we both applied to PhDs. Cue another
             stretch of long distance, this time between Boston and London.
-            We&rsquo;ve since finished the PhDs but sadly, not the long
-            distance which remains, between those same two cities.
+            We&rsquo;ve since finished our PhDs but sadly, not the long
+            distance &mdash; which remains between those same two cities.
           </p>
 
           <p>
             All of this is to say: no part of this has ever been easy. It
             has spanned continents, religions, political conflict, and more
             flights than we care to count, all in the long shadow of a
-            stupid border drawn 79 years ago. And yet, through every bit of
+            senseless border drawn 79 years ago. And yet, through every bit of
             it, we&rsquo;ve never quite managed to let go of each other.
-            After nine years, we&rsquo;ve decided we never will.
+            After nine years, we&rsquo;ve decided we never will.  Which, all things considered, may be our first practical
+            decision after all. 
           </p>
 
           <p>
-            Which, all things considered, may be our first practical
-            decision after all. We hope to see you in Colombo to celebrate
+           We hope to see you in Colombo to celebrate
             this new chapter!
           </p>
         </Content>
