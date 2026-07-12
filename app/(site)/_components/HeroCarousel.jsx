@@ -14,7 +14,6 @@ const PHOTOS = [
   { src: "/images/photo-10.jpg", alt: "Amen and Kartik on a mountain trek" },
   { src: "/images/photo-11.jpg", alt: "Amen and Kartik at the theatre" },
   { src: "/images/photo-12.jpg", alt: "Amen and Kartik at the beach" },
-  { src: "/images/photo-13.jpg", alt: "Amen and Kartik on a pier" },
   { src: "/images/photo-14.jpg", alt: "Amen and Kartik in the snow" },
 ];
 
