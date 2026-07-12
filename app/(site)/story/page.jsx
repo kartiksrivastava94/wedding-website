@@ -49,7 +49,7 @@ export default function Story() {
           <p>
             What followed was an idyllic summer in New Haven, soaking up our
             last few weeks in the place that had become home to us. Then, as planned,
-            we said goodbye &mdash; but immediately realized we weren&rsquo;t
+            we said goodbye at graduation &mdash; but immediately realized we weren&rsquo;t
             ready to let go. So began an even more impractical
             US&ndash;India long-distance relationship.
           </p>
