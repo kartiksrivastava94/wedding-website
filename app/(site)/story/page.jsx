@@ -24,12 +24,12 @@ export default function Story() {
             obvious that doing anything about it made very little sense.
             Kartik is from an Indian Hindu family, Amen from a Pakistani
             Muslim one. After graduation, he&rsquo;d be returning to India
-            while she was due to stay in the US. The practical thing to do was to
+            while she'd be staying in the US. The practical thing to do was to
             ignore our feelings. 
           </p>
 
           <p>
-            As you may have gathered over the years, we are not very
+            As you may have gathered, we are not very
             practical. So while we didn&rsquo;t say anything out loud, we spent nearly all our
             time together &mdash; studying in libraries, working through
             problem sets, and inventing increasingly contrived excuses to see
@@ -57,7 +57,7 @@ export default function Story() {
           <p>
             A year later, we somehow engineered a way for Kartik to move from Delhi to
             Washington DC, where Amen lived and worked. We spent two
-            wonderful years in a city that we grew to love &mdash; and then,
+            wonderful years in a city we grew to love &mdash; and then,
             just to ruin it all, we both applied to PhDs. Cue another
             stretch of long distance, this time between Boston and London.
             We&rsquo;ve since finished our PhDs but sadly, not the long
@@ -70,8 +70,12 @@ export default function Story() {
             flights than we care to count, all in the long shadow of a
             senseless border drawn 79 years ago. And yet, through every bit of
             it, we&rsquo;ve never quite managed to let go of each other.
-            After nine years, we&rsquo;ve decided we never will.  Which, all things considered, may be our first practical
-            decision after all. 
+            After nine years, we&rsquo;ve decided we never will.  
+          </p>
+
+          <p>
+            Which, all things considered, may be our first practical
+            decision after all.
           </p>
 
           <p>
