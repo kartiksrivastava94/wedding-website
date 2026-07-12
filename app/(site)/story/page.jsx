@@ -41,14 +41,14 @@ export default function Story() {
           <p>
             As graduation crept closer and the reality of parting ways set
             in, we finally admitted what everyone else had known all along
-            &ndash; to ourselves and to each other. Once we said it, there
+            &ndash; to ourselves and to each other. Once we did, there
             was no going back. With two months left before graduation, we
             made the thoroughly impractical decision to start dating.
           </p>
 
           <p>
-            What followed was an idyllic summer in New Haven, soaking up our
-            last few weeks in the place that had become home to us. Then, as planned,
+            What followed was an idyllic summer together in New Haven, soaking up our
+            last few weeks in a distant place that had become home to us. Then, as planned,
             we said goodbye at graduation &mdash; but immediately realized we weren&rsquo;t
             ready to let go. So began an even more impractical
             US&ndash;India long-distance relationship.
