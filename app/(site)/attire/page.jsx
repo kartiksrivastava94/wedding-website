@@ -68,7 +68,7 @@ export default async function Attire() {
         you&rsquo;d like to join us in wearing South Asian attire (which we'd VERY much LOVE), here are a few
         shops that offer ready-to-wear and made-to-order
         outfits (they ship internationally). Feel free to order from any of
-        them:
+        them. Give us a shout if you'd like our take on what you've selected!
       </p>
       <div className="grid">
         <div className="card">
