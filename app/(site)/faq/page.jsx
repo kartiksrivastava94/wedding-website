@@ -16,7 +16,7 @@ export default async function Faq() {
           <p>
             Events run Dec 1–3, with checkout after breakfast on Dec 4. We
             recommend arriving by Dec 1 (for the cocktail party) and departing
-            Dec 4 or later.
+            Dec 4.
           </p>
         ) : (
           <p>
@@ -32,7 +32,7 @@ export default async function Faq() {
           We will try very hard to get you to your rooms without 
           having to wait too long. We will keep track of your flights and 
           arrival times, and will minimize how long you wait to get into your rooms 
-          no matter what time your flight gets you to Colombo.
+          no matter what time your flight gets you to Colombo. In case you have to wait a bit, make yourself at home in the Oyster Bar.
         </p>
       </details>      
 
@@ -54,7 +54,7 @@ export default async function Faq() {
       <details>
         <summary>Do I need a visa?</summary>
         <p>
-          Most visitors need an ETA before arrival. See{" "}
+          Most visitors need an ETA (online, quick, free of cost) before arrival. See{" "}
           <Link href="/travel">Travel</Link> for how to apply through the
           official portal. 
         </p>
@@ -63,7 +63,7 @@ export default async function Faq() {
       <details>
         <summary>Can I bring kids?</summary>
         <p>
-          Yes! Kids are very welcome. 
+          Yes! Kids are very welcome. Bring your kids!!
         </p>
       </details>
 

@@ -30,7 +30,7 @@ export default async function Schedule() {
           <p>
             Throughout the celebrations, The Oyster Bar at ITC Ratnadipa is our
             home base. Drop by any time for tea, coffee, and a snack. It&rsquo;s
-            a relaxed spot to catch up with friends and family between events or to wait while the hotel staff checks you in.
+            a relaxed spot to unwind with friends and family between events, or to wait while the hotel staff checks you in.
           </p>
         </div>
         <img src="/images/oyster-bar.png" alt="The Oyster Bar, ITC Ratnadipa" />
@@ -43,15 +43,15 @@ export default async function Schedule() {
             <div className="event-text">
               <p className="time">Evening · 5 pm onwards</p>
               <h3>
-                Pool Party and Cocktails <span className="badge">Welcome</span>
+                Pool Party and Cocktails <span className="badge">Evening</span>
               </h3>
               <p>
-                A pool party with snacks and drinks, followed by dinner,
+                This is for everyone who arrives a day before the main wedding. A pool party with snacks and drinks, followed by dinner,
                 drinks and dancing till late.
               </p>
               <p className="muted">
                 Venue: Infinity Pool and Ahasa Bar, ITC Ratnadipa · Attire: Start
-                with swimwear / pool attire, and then transition to party wear.
+                with swimwear / pool attire, and then go change into party wear after sunset. We'll move to the Ahasa bar then.
               </p>
             </div>
             <EventPhotos
@@ -73,7 +73,7 @@ export default async function Schedule() {
             <h3>
               Welcome Lunch <span className="badge">Daytime</span>
             </h3>
-            <p>A relaxed lunch to welcome you to the festivities. There will be mehendi (henna) artists for those who&rsquo;d like some.</p>
+            <p>A casual lunch to welcome you to the festivities. There will be mehendi (henna) artists for those who&rsquo;d like some.</p>
             <p className="gloss">
             </p>
             <p className="muted">
@@ -93,7 +93,7 @@ export default async function Schedule() {
             <h3>
               Sangeet/Mehndi <span className="badge">Evening</span>
             </h3>
-            <p>Music, dancing, and performances. The big party night.</p>
+            <p>Music, dancing, and performances. This is the big party night.</p>
             <p className="gloss">
               <strong>New to it?</strong> Families and friends put on choreographed group dance performances at the sangeet/mehndi to celebrate the upcoming wedding.
               It usually ends with everyone on the dance floor, dancing well into the night. We'll be on the beach for this one!
@@ -125,13 +125,14 @@ export default async function Schedule() {
             <p className="gloss">
               <strong>New to it?</strong> Haldi is a playful pre-wedding ritual
               where turmeric paste — bright yellow, and said to bless
-              the couple — gets smeared around, often on guests too. Expect a bit
-              of mess and a lot of laughter, so wear something you don&rsquo;t mind
+              the couple — gets smeared on their faces, and eventually on the guests too. Expect a bit
+              of mess and a lot of laughter. Wear something you don&rsquo;t mind
               staining.
             </p>
             <p className="muted">
-              Venue: The Panorama Deck, ITC Ratnadipa · Attire: Wear yellow or orange if you
-              can, and something you don&rsquo;t mind getting a little messy. Dress for a carnival.
+              Venue: The Panorama Deck, ITC Ratnadipa · 
+              Attire: Dress in bright colors for a carnival. Wear yellow or orange if you
+              can, and something you don&rsquo;t mind getting a little messy. The deck can be windy.
             </p>
           </div>
           <EventPhotos
@@ -145,7 +146,7 @@ export default async function Schedule() {
             <p className="time">Late afternoon · 4 pm onwards</p>
             <h3>
               Wedding Procession, Ceremony, Reception &amp; Afterparty{" "}
-              <span className="badge">Main event</span>
+              <span className="badge">Evening</span>
             </h3>
             <p>
               A short procession and ceremony, followed by dinner, reception, and
@@ -158,12 +159,14 @@ export default async function Schedule() {
             </p>
             <p className="muted">
               Venue: The Chequerboard, Galle Face Hotel · Attire: Our dressiest
-              event — formal or traditional South Asian attire.
+              event — formal or traditional South Asian attire. Something you're happy to dance in.
             </p>
           </div>
           <EventPhotos
+            stacked
             photos={[
               { src: "/images/chequerboard.jpeg", caption: "The Chequerboard, Galle Face Hotel" },
+              { src: "/images/chequerboard2.jpeg", caption: "The Chequerboard, Galle Face Hotel" },
             ]}
           />
         </div>
@@ -182,10 +185,18 @@ export default async function Schedule() {
               breakfast.
             </p>
             <p className="muted">
+              Venue: The Indian Ocean Pavillion · Attire: Casual.
+            </p>
+            <p className="muted">
               See <Link href="/travel">Travel</Link> for airport transfer
               guidance.
             </p>
           </div>
+          <EventPhotos
+            photos={[
+              { src: "/images/breakfast.jpg", caption: "Indian Ocean Pavillion, ITC Ratnadipa" },
+            ]}
+          />
         </div>
       </div>
 

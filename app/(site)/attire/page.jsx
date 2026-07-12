@@ -14,7 +14,8 @@ export default async function Attire() {
 
       <div className="callout">
         <p>
-          <strong>Above all, we want you to be comfortable.</strong> Everything
+          South Asian wedding attire is very maximalist and bright, so you can never be over-dressed in whatever you choose to wear.  
+          We would love for our guests to wear South Asian clothes but you are by no means required to. <strong>Above all, we want you to be comfortable.</strong> Everything
           below is a recommendation, never a requirement — please wear
           whatever makes you feel your best. 
         </p>
@@ -27,7 +28,7 @@ export default async function Attire() {
             <h3>Pool Party &amp; Cocktails · Dec 1</h3>
             <p>
               Swimwear and pool-friendly clothes to start, then change into
-              party wear for the evening.
+              party wear for the evening. Most people will be wearing western attire or an east-west fusion situation.
             </p>
           </div>
         )}
@@ -41,8 +42,8 @@ export default async function Attire() {
           <h3>Sangeet · Dec 2</h3>
           <p>
             South Asian festive or cocktail attire you can dance
-            in. Bring color and energy. We're going with a disco / gala themed decor. This is an outdoors event on the beach so something 
-            dressy but also light would be ideal.
+            in. Bring color and energy. We're going with an art-deco-meets-disco theme so we welcome glitter and glam in your outfits. This event is outdoors and on the beach so something 
+            dressy but also light would be ideal. We'll have hardwood floors covering most of the sand so all types of footwear should work just fine.
           </p>
         </div>
         <div className="card">
@@ -55,18 +56,17 @@ export default async function Attire() {
         <div className="card">
           <h3>Ceremony, Reception &amp; Afterparty · Dec 3</h3>
           <p>
-            Our dressiest event — formal or traditional South Asian attire. Ideally avoid red.
-            Bring your finest!
+            Our dressiest event — formal or traditional South Asian attire. Ideally you would avoid red.
+            Bring your finest! But also be prepared to dance in it at the afterparty!
           </p>
         </div>
       </div>
 
       <h2>New to South Asian attire?</h2>
       <p>
-        Not sure where to start? Truly, anything you&rsquo;re comfortable in is
-        perfect. But if
-        you&rsquo;d like to join us in South Asian attire (which we'd VERY much LOVE), here are a few
-        shops we&rsquo;ve found that offer ready-to-wear and made-to-order
+        If
+        you&rsquo;d like to join us in wearing South Asian attire (which we'd VERY much LOVE), here are a few
+        shops that offer ready-to-wear and made-to-order
         outfits (they ship internationally). Feel free to order from any of
         them:
       </p>

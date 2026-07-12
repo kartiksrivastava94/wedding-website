@@ -7,7 +7,7 @@ export default function Colombo() {
     <Content>
       <h1>Colombo &amp; Beyond</h1>
       <p className="lead">
-        Make a trip of it! Here are ideas for before or after the wedding.
+        We've loved visiting Sri Lanka and we hope you will too! Here are ideas for things to do before or after the wedding.
       </p>
 
       <h2>In Colombo</h2>
