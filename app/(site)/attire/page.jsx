@@ -31,7 +31,7 @@ export default async function Attire() {
               Swimwear to start — come pool-ready. 
               For the evening we'll move into cocktails, 
               so bring something dressy-casual to change into. Western or east-west fusion is ideal.
-              There will be changing rooms/showers/towels there in case you're not staying at the hotel that night.
+              There will be changing rooms / showers / towels there in case you're not staying at the hotel that night.
             </p>
           </div>
         )}
@@ -56,7 +56,7 @@ export default async function Attire() {
         <div className="card">
           <h3>Carnival brunch · Dec 3</h3>
           <p>
-            Wear the brightest colors you own! People will be wearing a mix of eastern and western attire. 
+            Wear the brightest colors you own! Dress for a day-time carnival themed party. People will be wearing a mix of eastern and western attire. 
 
           </p>
         </div>
