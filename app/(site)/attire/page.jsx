@@ -48,8 +48,10 @@ export default async function Attire() {
             Our theme is art-deco-meets-disco, so bring glitter, glam, sparkle, and energy. 
             It's outdoors on the beach, so lean toward lighter fabrics you'll stay comfortable in.
             Don't worry about shoes: hardwood floors cover most of the sand, so anything – 
-            including heels – will work just fine. For those wearing South Asian, we recommend lehengas for women  and 
-            kurtas (optionally with a scarf or Nehru jacket) for men.   
+            including heels – will work just fine. If you're wearing South Asian, a few options: 
+            lehengas on the more feminine end, a Nehru jacket on the more masculine end, 
+            and kurtas (with or without a scarf) landing 
+            anywhere in between — pick whatever feels most you.
           </p>
         </div>
         <div className="card">
@@ -65,9 +67,11 @@ export default async function Attire() {
             Our dressiest event — bring your finest in western formal or traditional South Asian attire. 
             One ask: please steer clear of red, since that’s the bride’s color. 
             Small touches of red are no problem. 
-            And be ready to dance in it all at the afterparty! Women opting for South Asian may consider 
-            a saree, a dressy kurta-shalwar, an anarkali dress or a lehenga again. Men may wear an Indian jacket (Bandhgala).
-            Plenty of people will also be in western attire such as dresses and suits.
+            And be ready to dance in it all at the afterparty! For South Asian attire, sarees, 
+            anarkalis, and lehengas sit on the more feminine end, a structured jacket like a 
+            bandhgala on the more masculine end, and a kurta-shalwar works across the 
+            spectrum — wear whatever you&rsquo;ll feel best in. Plenty of people will also be in 
+            western attire such as dresses and suits.
           </p>
         </div>
         <div className="card">
