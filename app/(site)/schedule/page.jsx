@@ -50,8 +50,7 @@ export default async function Schedule() {
                 drinks and dancing till late.
               </p>
               <p className="muted">
-                Venue: Infinity Pool and Ahasa Bar, ITC Ratnadipa · Attire: Start
-                with swimwear / pool attire, and then go change into party wear after sunset. We'll move to the Ahasa bar then.
+                Venue: Infinity Pool and Ahasa Bar, ITC Ratnadipa 
               </p>
             </div>
             <EventPhotos
@@ -77,8 +76,7 @@ export default async function Schedule() {
             <p className="gloss">
             </p>
             <p className="muted">
-              Venue: The Islander Bar, ITC Ratnadipa · Attire: Casual, daytime and
-              festive. South Asian wear or fun summer clothes.
+              Venue: The Islander Bar, ITC Ratnadipa 
             </p>
           </div>
           <EventPhotos
@@ -99,8 +97,7 @@ export default async function Schedule() {
               It usually ends with everyone on the dance floor, dancing well into the night. We'll be on the beach for this one!
             </p>
             <p className="muted">
-              Venue: The Bellevue Beach Club, Colombo Port City · Attire: South
-              Asian festive or cocktail attire you can dance in.
+              Venue: The Bellevue Beach Club, Colombo Port City 
             </p>
           </div>
           <EventPhotos
@@ -119,20 +116,11 @@ export default async function Schedule() {
           <div className="event-text">
             <p className="time">Morning · 10 am - 2 pm</p>
             <h3>
-              Haldi Lunch <span className="badge">Daytime</span>
+              Carnival Brunch <span className="badge">Daytime</span>
             </h3>
-            <p>A festive haldi carnival with drinks and lunch.</p>
-            <p className="gloss">
-              <strong>New to it?</strong> Haldi is a playful pre-wedding ritual
-              where turmeric paste — bright yellow, and said to bless
-              the couple — gets smeared on their faces, and eventually on the guests too. Expect a bit
-              of mess and a lot of laughter. Wear something you don&rsquo;t mind
-              staining.
-            </p>
-            <p className="muted">
-              Venue: The Panorama Deck, ITC Ratnadipa · 
-              Attire: Dress in bright colors for a carnival. Wear yellow or orange if you
-              can, and something you don&rsquo;t mind getting a little messy. The deck can be windy.
+            <p>A festive carnival with drinks and brunch, games and laughter.</p>
+             <p className="muted">
+              Venue: The Panorama Deck, ITC Ratnadipa
             </p>
           </div>
           <EventPhotos
@@ -158,8 +146,7 @@ export default async function Schedule() {
               drums and dancing.
             </p>
             <p className="muted">
-              Venue: The Chequerboard, Galle Face Hotel · Attire: Our dressiest
-              event — formal or traditional South Asian attire. Something you're happy to dance in.
+              Venue: The Chequerboard, Galle Face Hotel 
             </p>
           </div>
           <EventPhotos
@@ -185,7 +172,7 @@ export default async function Schedule() {
               breakfast.
             </p>
             <p className="muted">
-              Venue: The Indian Ocean Pavillion · Attire: Casual.
+              Venue: The Indian Ocean Pavillion 
             </p>
             <p className="muted">
               See <Link href="/travel">Travel</Link> for airport transfer
