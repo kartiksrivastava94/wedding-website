@@ -13,11 +13,15 @@ export default function PublicRsvp() {
   return (
     <main className="rsvp-standalone">
       <div className="container">
-        <p className="subtitle">You&rsquo;re invited to celebrate</p>
-        <h1>{site.coupleNames}</h1>
+        <p className="subtitle">Together with their families</p>
+        <h1>
+          Amen <span className="amp">&amp;</span> Kartik
+        </h1>
+        <p className="subtitle">are getting married · December 2026 · Colombo</p>
         <p className="lead">
-          December 2026 · {site.location}. We&rsquo;d love to know if you can
-          join us — please RSVP below.
+          We would be so glad to have you celebrate with us. Please let us know
+          if you can join by filling out the form below — it only takes a
+          minute, and there are no wrong answers.
         </p>
 
         <RsvpForm cocktail={false} dec1Stay={false} action={submitPublicRsvp} />
