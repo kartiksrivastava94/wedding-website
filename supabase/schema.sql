@@ -4,7 +4,7 @@
 create table if not exists public.rsvps (
   id             uuid primary key default gen_random_uuid(),
   created_at     timestamptz not null default now(),
-  track          text not null check (track in ('cocktail', 'cocktailstay', 'main')),
+  track          text not null check (track in ('cocktail', 'cocktailstay', 'main', 'rsvponly')),
   name           text not null,
   email          text not null,
   phone          text,
@@ -25,10 +25,11 @@ alter table public.rsvps add column if not exists phone text;
 alter table public.rsvps add column if not exists whatsapp_optin boolean default false;
 alter table public.rsvps add column if not exists flights_status text;
 
--- Allow the third track ('cocktailstay') on tables created before it existed.
+-- Allow all tracks on tables created before they existed, including the
+-- public form-only track 'rsvponly'.
 alter table public.rsvps drop constraint if exists rsvps_track_check;
 alter table public.rsvps add constraint rsvps_track_check
-  check (track in ('cocktail', 'cocktailstay', 'main'));
+  check (track in ('cocktail', 'cocktailstay', 'main', 'rsvponly'));
 
 -- Row-level security ON, with no public policies: the browser can never read or
 -- write this table directly. All writes come from the server via the service

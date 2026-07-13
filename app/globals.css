@@ -637,3 +637,24 @@ summary {
     max-width: none;
   }
 }
+
+/* ---- Standalone public RSVP page (no nav, centered header) ---- */
+.rsvp-standalone { padding: 3rem 0 4rem; }
+.rsvp-standalone .container { max-width: 620px; }
+.rsvp-standalone .subtitle {
+  text-align: center;
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin: 0.25rem 0;
+}
+.rsvp-standalone h1 {
+  text-align: center;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2.4rem, 6vw, 3.4rem);
+  margin: 0.3rem 0;
+}
+.rsvp-standalone .lead { text-align: center; margin: 0.75rem 0 2rem; }

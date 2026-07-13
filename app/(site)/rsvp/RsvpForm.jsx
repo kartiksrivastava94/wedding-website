@@ -1,22 +1,23 @@
 "use client";
 
 import { useActionState } from "react";
-import { submitRsvp } from "./actions";
 
 const initialState = { ok: false, error: null };
 
+// Non-cocktail events — shown to every guest (main, cocktail, cocktailstay,
+// and the public rsvp-only form). Keep these in sync with the Schedule page.
 const EVENTS = [
-  { value: "Welcome Lunch & Mehendi (Dec 2)", label: "Welcome Lunch & Mehendi (Dec 2)" },
-  { value: "Sangeet (Dec 2)", label: "Sangeet (Dec 2)" },
-  { value: "Haldi & Pool Party (Dec 3)", label: "Haldi & Pool Party (Dec 3)" },
+  { value: "Welcome Lunch (Dec 2)", label: "Welcome Lunch (Dec 2)" },
+  { value: "Sangeet/Mehndi (Dec 2)", label: "Sangeet/Mehndi (Dec 2)" },
+  { value: "Carnival Brunch (Dec 3)", label: "Carnival Brunch (Dec 3)" },
   {
-    value: "Ceremony, Reception & Afterparty (Dec 3)",
-    label: "Ceremony, Reception & Afterparty (Dec 3)",
+    value: "Wedding Ceremony, Reception & Afterparty (Dec 3)",
+    label: "Wedding Ceremony, Reception & Afterparty (Dec 3)",
   },
 ];
 
-export default function RsvpForm({ cocktail, dec1Stay }) {
-  const [state, formAction, pending] = useActionState(submitRsvp, initialState);
+export default function RsvpForm({ cocktail, dec1Stay, action }) {
+  const [state, formAction, pending] = useActionState(action, initialState);
 
   if (state.ok) {
     return (
@@ -95,9 +96,9 @@ export default function RsvpForm({ cocktail, dec1Stay }) {
             <input
               type="checkbox"
               name="events"
-              value="Cocktail Party (Dec 1)"
+              value="Pool Party and Cocktails (Dec 1)"
             />{" "}
-            Cocktail Party (Dec 1)
+            Pool Party and Cocktails (Dec 1)
           </label>
         )}
         {EVENTS.map((e) => (
@@ -110,7 +111,7 @@ export default function RsvpForm({ cocktail, dec1Stay }) {
       {cocktail && !dec1Stay && (
         <p>
           <label>
-            Arriving for the Dec 1 cocktail party (need the Dec 1 night)?
+            Arriving for the Dec 1 pool party &amp; cocktails (need the Dec 1 night)?
             <br />
             <select className="select" name="dec1night" defaultValue="Not sure yet">
               <option>Not sure yet</option>

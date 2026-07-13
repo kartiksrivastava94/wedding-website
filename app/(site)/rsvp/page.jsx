@@ -2,6 +2,7 @@ import { getTrackInfo } from "@/lib/auth";
 import { site } from "@/lib/site";
 import Content from "../_components/Content";
 import RsvpForm from "./RsvpForm";
+import { submitRsvp } from "./actions";
 
 export default async function Rsvp() {
   const { cocktail, dec1Stay } = await getTrackInfo();
@@ -14,7 +15,7 @@ export default async function Rsvp() {
         your room and headcount.
       </p>
 
-      <RsvpForm cocktail={cocktail} dec1Stay={dec1Stay} />
+      <RsvpForm cocktail={cocktail} dec1Stay={dec1Stay} action={submitRsvp} />
 
       <p className="muted" style={{ marginTop: "2rem" }}>
         Prefer to reply directly? Email us at{" "}
