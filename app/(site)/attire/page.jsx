@@ -75,7 +75,7 @@ export default async function Attire() {
       <h2>New to South Asian attire?</h2>
       <p>
         If
-        you&rsquo;d like to join us in wearing South Asian attire (which we'd VERY much LOVE), here are a few
+        you&rsquo;d like to join us in wearing South Asian attire (which we'd VERY much LOVE but do not require), here are a few
         shops that offer ready-to-wear and made-to-order
         outfits (they ship internationally). Feel free to order from any of
         them. Give us a shout if you'd like our take on what you've selected!
