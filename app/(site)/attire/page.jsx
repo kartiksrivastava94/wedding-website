@@ -45,7 +45,7 @@ export default async function Attire() {
           <h3>Sangeet · Dec 2</h3>
           <p>
             South Asian festive or cocktail attire that you can dance in.
-            Our theme is art-deco-meets-disco, so bring glitter, glam, color, and energy. 
+            Our theme is art-deco-meets-disco, so bring glitter, glam, sparkle, and energy. 
             It's outdoors on the beach, so lean toward lighter fabrics you'll stay comfortable in.
             Don't worry about shoes: hardwood floors cover most of the sand, so anything – 
             including heels – will work just fine. For those wearing South Asian, we recommend lehengas for women  and 
