@@ -15,7 +15,7 @@ export default async function Attire() {
       <div className="callout">
         <p>
           South Asian weddings are very maximalist and bright, so you can never be over-dressed in whatever you choose to wear.  
-          We would love for our guests to wear South Asian clothes but you are by no means required to. 
+          We would love for our guests to wear South Asian clothes but you are by no means required to.  
           <strong>Above all, we want you to be comfortable.</strong> Everything
           below is a recommendation, never a requirement — please wear
           whatever makes you feel your best. 
