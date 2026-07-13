@@ -15,7 +15,8 @@ export default async function Attire() {
       <div className="callout">
         <p>
           South Asian weddings are very maximalist and bright, so you can never be over-dressed in whatever you choose to wear.  
-          We would love for our guests to wear South Asian clothes but you are by no means required to. <strong>Above all, we want you to be comfortable.</strong> Everything
+          We would love for our guests to wear South Asian clothes but you are by no means required to. 
+          <strong>Above all, we want you to be comfortable.</strong> Everything
           below is a recommendation, never a requirement — please wear
           whatever makes you feel your best. 
         </p>
@@ -29,7 +30,7 @@ export default async function Attire() {
             <p>
               Swimwear to start — come pool-ready. 
               For the evening we'll move into cocktails, 
-              so bring something dressy-casual to change into. Western or east-west fusion is ideal for cocktails.
+              so bring something dressy-casual to change into. Western or east-west fusion is ideal.
               There will be changing rooms/showers/towels there in case you're not staying at the hotel that night.
             </p>
           </div>
@@ -37,7 +38,8 @@ export default async function Attire() {
         <div className="card">
           <h3>Welcome Lunch &amp; Mehendi · Dec 2</h3>
           <p>
-            Casual, daytime — light South Asian wear or breezy summer clothes. There'll be henna if you'd like it, so sleeves you can push up are handy.
+            Casual, daytime — light South Asian wear or breezy summer clothes. 
+            There'll be henna if you'd like it, so sleeves you can push up are handy.
           </p>
         </div>
         <div className="card">
@@ -48,24 +50,25 @@ export default async function Attire() {
             It's outdoors on the beach, so lean toward lighter fabrics you'll stay comfortable in.
             Don't worry about shoes: hardwood floors cover most of the sand, so anything – 
             including heels – will work just fine. For those wearing South Asian, we recommend lehengas for women  and 
-            kurtas (optionally with a scarf or Nehru jacket) for men.  
+            kurtas (optionally with a scarf or Nehru jacket) for men.   
           </p>
         </div>
         <div className="card">
           <h3>Carnival brunch · Dec 3</h3>
           <p>
-            Wear bright colors if you can! Western is fine. Pick something you don&rsquo;t mind getting a 
-            little messy because we&rsquo;ll invite you to (optionally) play with color.
+            Wear the brightest colors you own! People will be wearing a mix of eastern and western attire. 
+
           </p>
         </div>
         <div className="card">
           <h3>Ceremony, Reception &amp; Afterparty · Dec 3</h3>
           <p>
-            Our dressiest event — bring your finest in formal or traditional South Asian attire. 
+            Our dressiest event — bring your finest in western formal or traditional South Asian attire. 
             One ask: please steer clear of red, since that’s the bride’s color . 
             Small touches of red are no problem. 
             And be ready to dance in it all at the afterparty! Women opting for South Asian may consider 
-            a saree, dressy kurta-shalwar, an anarkali dress or a lehenga again. Men may wear a sherwani.
+            a saree, a dressy kurta-shalwar, an anarkali dress or a lehenga again. Men may wear an Indian jacket (Bandhgala).
+            Plenty of people will also be in western attire such as dresses and suits.
           </p>
         </div>
       </div>
