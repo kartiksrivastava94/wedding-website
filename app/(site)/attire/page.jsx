@@ -70,6 +70,12 @@ export default async function Attire() {
             Plenty of people will also be in western attire such as dresses and suits.
           </p>
         </div>
+        <div className="card">
+          <h3>Breakfast &amp; Checkout · Dec 4</h3>
+          <p>
+            No need to dress up — casual and whatever you&rsquo;d like to travel in.
+          </p>
+        </div>
       </div>
 
       <h2>New to South Asian attire?</h2>
