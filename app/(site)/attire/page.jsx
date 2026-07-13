@@ -9,7 +9,7 @@ export default async function Attire() {
     <Content>
       <h1>What to Wear</h1>
       <p className="lead">
-        Colombo is warm and humid, so keep things breathable. Here&rsquo;s a guide for each event.
+        Colombo is warm and humid, so keep things breathable. 
       </p>
 
       <div className="callout">
