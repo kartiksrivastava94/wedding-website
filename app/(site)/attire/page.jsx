@@ -14,7 +14,7 @@ export default async function Attire() {
 
       <div className="callout">
         <p>
-          South Asian wedding attire is very maximalist and bright, so you can never be over-dressed in whatever you choose to wear.  
+          South Asian weddings are very maximalist and bright, so you can never be over-dressed in whatever you choose to wear.  
           We would love for our guests to wear South Asian clothes but you are by no means required to. <strong>Above all, we want you to be comfortable.</strong> Everything
           below is a recommendation, never a requirement — please wear
           whatever makes you feel your best. 
@@ -27,37 +27,45 @@ export default async function Attire() {
           <div className="card">
             <h3>Pool Party &amp; Cocktails · Dec 1</h3>
             <p>
-              Swimwear and pool-friendly clothes to start, then change into
-              party wear for the evening. Most people will be wearing western attire or an east-west fusion situation.
+              Swimwear to start — come pool-ready. 
+              For the evening we'll move into cocktails, 
+              so bring something dressy-casual to change into. Western or east-west fusion is ideal for cocktails.
+              There will be changing rooms/showers/towels there in case you're not staying at the hotel that night.
             </p>
           </div>
         )}
         <div className="card">
           <h3>Welcome Lunch &amp; Mehendi · Dec 2</h3>
           <p>
-            Casual, daytime and festive — light South Asian wear or breezy summer clothes.
+            Casual, daytime — light South Asian wear or breezy summer clothes. There'll be henna if you'd like it, so sleeves you can push up are handy.
           </p>
         </div>
         <div className="card">
           <h3>Sangeet · Dec 2</h3>
           <p>
-            South Asian festive or cocktail attire you can dance
-            in. Bring color and energy. We're going with an art-deco-meets-disco theme so we welcome glitter and glam in your outfits. This event is outdoors and on the beach so something 
-            dressy but also light would be ideal. We'll have hardwood floors covering most of the sand so all types of footwear should work just fine.
+            South Asian festive or cocktail attire that you can dance in.
+            Our theme is art-deco-meets-disco, so bring glitter, glam, color, and energy. 
+            It's outdoors on the beach, so lean toward lighter fabrics you'll stay comfortable in.
+            Don't worry about shoes: hardwood floors cover most of the sand, so anything – 
+            including heels – will work just fine. For those wearing South Asian, we recommend lehengas for women  and 
+            kurtas (optionally with a scarf or Nehru jacket) for men.  
           </p>
         </div>
         <div className="card">
-          <h3>Haldi Lunch · Dec 3</h3>
+          <h3>Carnival brunch · Dec 3</h3>
           <p>
-            Wear yellow or orange if you can! Pick something you don&rsquo;t mind getting a 
+            Wear bright colors if you can! Western is fine. Pick something you don&rsquo;t mind getting a 
             little messy because we&rsquo;ll invite you to (optionally) play with color.
           </p>
         </div>
         <div className="card">
           <h3>Ceremony, Reception &amp; Afterparty · Dec 3</h3>
           <p>
-            Our dressiest event — formal or traditional South Asian attire. Ideally you would avoid red.
-            Bring your finest! But also be prepared to dance in it at the afterparty!
+            Our dressiest event — bring your finest in formal or traditional South Asian attire. 
+            One ask: please steer clear of red, since that’s the bride’s color . 
+            Small touches of red are no problem. 
+            And be ready to dance in it all at the afterparty! Women opting for South Asian may consider 
+            a saree, dressy kurta-shalwar, an anarkali dress or a lehenga again. Men may wear a sherwani.
           </p>
         </div>
       </div>
