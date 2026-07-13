@@ -47,8 +47,8 @@ export default async function Attire() {
             South Asian festive or cocktail attire that you can dance in.
             Our theme is art-deco-meets-disco, so bring glitter, glam, sparkle, and energy. 
             It's outdoors on the beach, so lean toward lighter fabrics you'll stay comfortable in.
-            Don't worry about shoes: hardwood floors cover most of the sand, so anything – 
-            including heels – will work just fine. If you're wearing South Asian, a few options: 
+            Don't worry about shoes: hardwood floors cover most of the sand, so anything — 
+            including heels — will work just fine. If you're wearing South Asian, a few options: 
             lehengas on the more feminine end, a Nehru jacket on the more masculine end, 
             and kurtas (with or without a scarf) landing 
             anywhere in between — pick whatever feels most you.
