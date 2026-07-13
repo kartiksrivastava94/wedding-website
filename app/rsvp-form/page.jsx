@@ -13,7 +13,6 @@ export default function PublicRsvp() {
   return (
     <main className="rsvp-standalone">
       <div className="container">
-        <p className="subtitle">Together with their families</p>
         <h1>
           Amen <span className="amp">&amp;</span> Kartik
         </h1>
