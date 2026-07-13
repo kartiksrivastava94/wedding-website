@@ -41,32 +41,32 @@ export default function Story() {
           <p>
             As graduation crept closer and the reality of parting ways set
             in, we finally admitted what everyone else had known all along
-            &ndash; to ourselves and to each other. Once we did, there
+            &mdash; to ourselves and to each other. Once we did, there
             was no going back. With two months left before graduation, we
             made the thoroughly impractical decision to start dating.
           </p>
 
           <p>
-            What followed was an idyllic summer together in New Haven, soaking up our
+            What followed was a glorious summer together in New Haven, soaking up our
             last few weeks in a distant place that had become home to us. Then, as planned,
             we said goodbye at graduation &mdash; but immediately realized we weren&rsquo;t
             ready to let go. So began an even more impractical
-            US&ndash;India long-distance relationship.
+            US-India long-distance relationship.
           </p>
 
           <p>
             A year later, we somehow engineered a way for Kartik to move from Delhi to
             Washington DC, where Amen lived and worked. We spent two
-            wonderful years in a city we grew to love &mdash; and then,
+            wonderful years in a city we grew to love. And then,
             just to ruin it all, we both applied to PhDs. Cue another
             stretch of long distance, this time between Boston and London.
             We&rsquo;ve since finished our PhDs but sadly, not the long
-            distance &mdash; which remains between those same two cities.
+            distance, which remains between those same two cities.
           </p>
 
           <p>
             All of this is to say: no part of this has ever been easy. It
-            has spanned continents, religions, political conflict, a pandemic, and more
+            has spanned continents, religions, a war(?) between our countries, a pandemic, and more
             flights than we care to count, all in the long shadow of a
             senseless border drawn 79 years ago. And yet, through every bit of
             it, we&rsquo;ve never quite managed to let go of each other.
