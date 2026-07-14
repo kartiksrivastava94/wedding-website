@@ -14,6 +14,8 @@ create table if not exists public.rsvps (
   events         text[] default '{}',
   dec1_night     text,          -- only set for cocktail-track guests
   flights_status text,
+  arrival_flight   text,
+  departure_flight text,
   travel_dates   text,
   dietary        text,
   message        text
@@ -24,6 +26,8 @@ create table if not exists public.rsvps (
 alter table public.rsvps add column if not exists phone text;
 alter table public.rsvps add column if not exists whatsapp_optin boolean default false;
 alter table public.rsvps add column if not exists flights_status text;
+alter table public.rsvps add column if not exists arrival_flight text;
+alter table public.rsvps add column if not exists departure_flight text;
 
 -- Allow all tracks on tables created before they existed, including the
 -- public form-only track 'rsvponly'.
@@ -42,7 +46,8 @@ alter table public.rsvps enable row level security;
 drop view if exists public.rsvps_recent;
 create view public.rsvps_recent as
   select created_at, track, name, email, phone, whatsapp_optin, attending,
-         party_size, events, dec1_night, flights_status, travel_dates,
+         party_size, events, dec1_night, flights_status,
+         arrival_flight, departure_flight, travel_dates,
          dietary, message
   from public.rsvps
   order by created_at desc;

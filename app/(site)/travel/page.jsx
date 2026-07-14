@@ -87,7 +87,7 @@ export default async function Travel() {
         <div className="card">
           <h3>Ride-hailing</h3>
           <p>
-            <strong>Uber</strong> 
+            <strong>Uber </strong> 
             operates in Colombo and is the easiest way to get around.
           </p>
         </div>

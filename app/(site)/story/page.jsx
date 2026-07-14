@@ -66,7 +66,7 @@ export default function Story() {
 
           <p>
             All of this is to say: no part of this has ever been easy. It
-            has spanned continents, religions, a war(?) between our countries, a pandemic, and more
+            has spanned continents, religions, a pandemic, and more
             flights than we care to count, all in the long shadow of a
             senseless border drawn 79 years ago. And yet, through every bit of
             it, we&rsquo;ve never quite managed to let go of each other.
