@@ -638,6 +638,87 @@ summary {
   }
 }
 
+/* ---- Admin RSVP dashboard ---- */
+.admin { padding: 2.5rem 0 4rem; }
+.admin-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.admin-head h1 { margin: 0; }
+.admin-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.admin-actions .btn { margin-top: 0; }
+.linkbtn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.admin-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.75rem 0;
+}
+.stat {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem 1.4rem;
+  min-width: 120px;
+  background: var(--panel);
+}
+.stat-num {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--fg);
+}
+.stat-label {
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+.table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 4px; }
+.admin-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+}
+.admin-table th,
+.admin-table td {
+  text-align: left;
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.admin-table th {
+  background: var(--panel);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.68rem;
+  color: var(--muted);
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+.admin-table tr:last-child td { border-bottom: none; }
+.admin-table .nowrap { white-space: nowrap; }
+
 /* ---- Standalone public RSVP page (no nav, centered header) ---- */
 .rsvp-standalone { padding: 3rem 0 4rem; }
 .rsvp-standalone .container { max-width: 620px; }
